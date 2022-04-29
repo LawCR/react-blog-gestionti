@@ -13,7 +13,7 @@ export const integrantesList: integrantesType[] = [
         lastName: 'Calderon Rojas',
         imagen: 'https://cdn.discordapp.com/attachments/730547348261830779/967989042157342760/unknown.png',
         frase: 'Sin miedo al exito',
-        email: 'tupapimasna@gmail.com'
+        email: 'alvaro@gmail.com'
     },
     {
         name: 'Cristian Alexis',
@@ -34,7 +34,7 @@ export const integrantesList: integrantesType[] = [
         lastName: 'Mamani Lingan',
         imagen: 'https://cdn.discordapp.com/attachments/783158216976629770/969392537397776435/unknown.png',
         frase: 'Mejor amigo de romel',
-        email: 'tupapimasna@gmail.com'
+        email: 'jeansito@gmail.com'
     },
     {
         name: 'Thom Maurick',
@@ -47,14 +47,14 @@ export const integrantesList: integrantesType[] = [
         name: 'Angela Stephany',
         lastName: 'Centeno Macalupu',
         imagen: 'https://cdn.discordapp.com/attachments/783158216976629770/969402496114118686/unknown.png',
-        frase: 'Sin miedo al exito',
+        frase: 'Pendiente',
         email: 'angela@gmail.com'
     },
     {
-        name: 'YRAIDA',
-        lastName: 'RUIZ COLLADO',
+        name: 'Yraida',
+        lastName: 'Ruiz Collado',
         imagen: 'https://cdn.discordapp.com/attachments/783158216976629770/969389729973944361/unknown.png',
-        frase: 'Sin miedo al exito',
+        frase: 'Pendiente',
         email: 'yraida@gmail.com'
     },
 ]

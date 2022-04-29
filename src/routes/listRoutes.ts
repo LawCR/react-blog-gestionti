@@ -18,7 +18,7 @@ export const menuData: MenuType[] = [
             },
             {
                 to: '/inicio',
-                MenuItemName: 'Inicio'
+                MenuItemName: 'Próximamente'
             },
         ]
     },
