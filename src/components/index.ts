@@ -1,0 +1,7 @@
+export {default as Footer} from './Footer'
+export {default as Header} from './Header'
+export {default as MenuList} from './MenuList'
+export {default as Navbar} from './Navbar'
+export {default as SideMenu} from './SideMenu'
+export {default as Integrantes} from './Integrantes'
+export {default as Tema} from './Tema'
