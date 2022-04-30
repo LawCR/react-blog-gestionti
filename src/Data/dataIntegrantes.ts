@@ -18,30 +18,30 @@ export const integrantesList: integrantesType[] = [
     {
         name: 'Cristian Alexis',
         lastName: 'Chipana Huaman',
-        imagen: 'https://cdn.discordapp.com/attachments/783158216976629770/969359686015012914/unknown.png',
-        frase: 'Dontas pandaaaa',
+        imagen: 'https://cdn.discordapp.com/attachments/783158216976629770/969954053062795274/unknown.png',
+        frase: 'Mejor amigo de Arny',
         email: 'tupapimasna@gmail.com'
     },
     {
         name: 'Santiago Guillermo',
         lastName: 'Damian Quispe',
-        imagen: 'https://media.discordapp.net/attachments/783158216976629770/969398297502560366/unknown.png',
+        imagen: 'https://cdn.discordapp.com/attachments/783158216976629770/969953072824590376/unknown.png',
         frase: 'No renuncies a tus sueños, sigue durmiendo',
         email: 'tusatito@gmail.com'
     },
     {
         name: 'Jeancarlo Willy',
         lastName: 'Mamani Lingan',
-        imagen: 'https://cdn.discordapp.com/attachments/783158216976629770/969392537397776435/unknown.png',
-        frase: 'Mejor amigo de romel',
+        imagen: 'https://cdn.discordapp.com/attachments/924718186530766948/969407855746777108/unknown.png',
+        frase: 'Bebeloper en crecimiento',
         email: 'jeansito@gmail.com'
     },
     {
         name: 'Thom Maurick',
         lastName: 'Roman Aguilar',
-        imagen: 'https://cdn.discordapp.com/attachments/783158216976629770/969393066580537364/unknown.png',
+        imagen: 'https://cdn.discordapp.com/attachments/967428914156806255/969952371142705182/unknown.png',
         frase: 'Mejor amigo de Arny',
-        email: 'thonsitobb@gmail.com'
+        email: 'thomtwd@gmail.com'
     },
     {
         name: 'Angela Stephany',
