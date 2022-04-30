@@ -1,5 +1,5 @@
 import { Box, Typography, Grid, Card, CardMedia, CardContent } from '@mui/material'
-import { integrantesList } from '../data/dataIntegrantes'
+import { integrantesList } from '../db/dataIntegrantes'
 
 const Integrantes = () => {
     return (
