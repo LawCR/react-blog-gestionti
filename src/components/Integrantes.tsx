@@ -13,7 +13,7 @@ const Integrantes = () => {
                                 <CardMedia 
                                 component="img"
                                 height="220px"
-                                image={imagen}
+                                image={imagen || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
                                 alt={name}
                                 sx={{objectFit: 'contain'}}
                                 />

@@ -41,12 +41,12 @@ const SideMenu = () => {
                         />
                     </ListItem>
                     {
-                        menuData.map(({menuName, menuItem}) => (
-                            <Box>
+                        menuData.map(({menuName, menuItem}, index) => (
+                            <Box key={menuName + index}>
                                 <ListSubheader>{menuName}</ListSubheader>
                                 {
                                     menuItem.map(({MenuItemName, to}) => (
-                                        <ListItem button onClick={() => navigateTo(to)}>
+                                        <ListItem button onClick={() => navigateTo(to)} key={to + index} >
                                                 <ListItemIcon sx={{minWidth: 35}}>
                                                     <ArticleOutlined />
                                                 </ListItemIcon>
