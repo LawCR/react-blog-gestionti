@@ -105,7 +105,7 @@ const ActaConstitucion = () => {
                 <CardMedia 
                     component="img"
                     height='auto'
-                    image={'https://cdn.discordapp.com/attachments/783158216976629770/971128980491096094/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    image={'https://cdn.discordapp.com/attachments/783158216976629770/972489961444089856/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
                     alt='ACTA DE LA CONSTITUCIÓN DEL PROYECTO'
                     sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />

@@ -21,7 +21,7 @@ const Header = () => {
         <Paper elevation={4} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: {xs: '100%', md: '90%'}, paddingY: '1.5rem', paddingX: '1rem'}}>
             
             <Typography textAlign='center' variant="h4" fontSize={{xs: '1.7rem', md: '2rem'}} component="h6" color='primary' paddingX={{xs: 0, md: 5}} >
-                IMPLEMENTACIÓN DE UN DATA CENTER PARA UNA INSTITUCIÓN EDUCATIVA
+                IMPLEMENTACIÓN DE LABORATORIOS DE CÓMPUTO PARA EL COLEGIO IE 6045 DOLORES CAVERO DE GRAU
             </Typography>
         </Paper>
     </Box>
