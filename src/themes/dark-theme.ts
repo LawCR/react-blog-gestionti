@@ -57,7 +57,8 @@ export const darkTheme = createTheme({
                 fontSize: '1.875rem',
                 fontWeight: 600,
                 lineHeight: '2.25rem',
-                marginBottom: '1.5rem',
+                marginBottom: '1.2rem',
+                textAlign: 'center',
               },
               subtitle2: {
                 marginBottom: '1.5rem',

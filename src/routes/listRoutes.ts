@@ -13,11 +13,11 @@ export const menuData: MenuType[] = [
         menuName: 'Fase Inicial',
         menuItem: [
             {
-                to: '/',
-                MenuItemName: 'Home'
+                to: '/acta-constitucion',
+                MenuItemName: 'Acta de la Constitución del Proyecto'
             },
             {
-                to: '/inicio',
+                to: '/',
                 MenuItemName: 'Próximamente'
             },
         ]
@@ -30,7 +30,7 @@ export const menuData: MenuType[] = [
                 MenuItemName: 'Próximamente'
             },
             {
-                to: '/inicio',
+                to: '/',
                 MenuItemName: 'Próximamente'
             },
         ]
@@ -43,7 +43,7 @@ export const menuData: MenuType[] = [
                 MenuItemName: 'Próximamente'
             },
             {
-                to: '/inicio',
+                to: '/',
                 MenuItemName: 'Próximamente'
             },
         ]
@@ -56,7 +56,7 @@ export const menuData: MenuType[] = [
                 MenuItemName: 'Próximamente'
             },
             {
-                to: '/inicio',
+                to: '/',
                 MenuItemName: 'Próximamente'
             },
         ]
@@ -69,7 +69,7 @@ export const menuData: MenuType[] = [
                 MenuItemName: 'Próximamente'
             },
             {
-                to: '/inicio',
+                to: '/',
                 MenuItemName: 'Próximamente'
             },
         ]

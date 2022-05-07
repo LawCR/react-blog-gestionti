@@ -37,13 +37,13 @@ const Navbar = () => {
             <HideOnScroll>
                 <AppBar position="fixed">
                     <Toolbar>
-                        <Typography variant="h5" fontWeight='light' component="h6" color='primary' onClick={() => navigate('/')}>
+                        <Typography sx={{cursor: 'pointer'}} variant="h5" fontWeight='light' component="h6" color='primary' onClick={() => navigate('/')}>
                             Blog
                         </Typography>
                         <Box display='flex' justifyContent='space-around' sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
                             {
                                 menuData.map((menu, index) => (
-                                        <MenuList menu={menu} key={menu.menuName + index} />
+                                        <MenuList menu={menu} key={'menu-' + index} />
                                 ))
                             }
                         </Box>
