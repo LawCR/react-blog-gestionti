@@ -17,8 +17,8 @@ export const menuData: MenuType[] = [
                 MenuItemName: 'Acta de la Constitución del Proyecto'
             },
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/direccion-proyecto',
+                MenuItemName: 'Dirección de Proyecto'
             },
         ]
     },

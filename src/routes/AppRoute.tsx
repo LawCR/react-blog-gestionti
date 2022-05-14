@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Box, Container } from '@mui/material';
 import { Footer, Header, Navbar, SideMenu } from '../components';
-import { ActaConstitucion, Home, IdentificarInteresados } from '../pages';
+import { ActaConstitucion, DireccionProyecto, Home, IdentificarInteresados } from '../pages';
 
 
 const AppRoute = () => {
@@ -18,6 +18,7 @@ const AppRoute = () => {
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/acta-constitucion" element={<ActaConstitucion />} />
+                            <Route path="/direccion-proyecto" element={<DireccionProyecto />} />
                             <Route path="/identificar-interesados" element={<IdentificarInteresados />} />
                         </Routes>
                     </Box>
