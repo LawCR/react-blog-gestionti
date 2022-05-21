@@ -17,21 +17,30 @@ export const menuData: MenuType[] = [
                 MenuItemName: 'Acta de la Constitución del Proyecto'
             },
             {
-                to: '/direccion-proyecto',
-                MenuItemName: 'Dirección de Proyecto'
+                to: '/identificar-interesados',
+                MenuItemName: 'Identificar a los Interesados'
             },
         ]
     },
     {
-        menuName: 'Próximamente',
+        menuName: 'Procesos de Planificación',
         menuItem: [
+            
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/direccion-proyecto',
+                MenuItemName: 'Dirección de Proyecto'
             },
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/planificar-alcance',
+                MenuItemName: 'Planificar la Gestión del Alcance'
+            },
+            {
+                to: '/recopilar-requisitos',
+                MenuItemName: 'Recopilar Requisitos'
+            },
+            {
+                to: '/definir-alcance',
+                MenuItemName: 'Definir el Alcance'
             },
         ]
     },

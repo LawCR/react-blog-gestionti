@@ -1,12 +1,12 @@
 import { Box, Typography, CardMedia, Link } from '@mui/material';
 import Tema from '../components/Tema';
 
-const IdentificarInteresados = () => {
+const RecopilarRequisitos = () => {
   return (
     <Box component='article'>
         <Box component='header'>
             <Tema 
-                title='IDENTIFICAR A LOS INTERESADOS' 
+                title='RECOPILAR REQUISITOS' 
             />
         </Box>
         <Box component='section' display='flex' flexDirection='column' rowGap={4} paddingY={4}>
@@ -35,14 +35,6 @@ const IdentificarInteresados = () => {
                         alt='ACTA DE CONSTITUCIÓN DEL PROYECTO'
                         sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
-                <Typography variant='subtitle1' component='h1' mb='0'>DOCUMENTOS DE NEGOCIO</Typography>
-                <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/972278716866625546/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='DOCUMENTOS DE NEGOCIO'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                />
                 <Typography variant='subtitle1' component='h1' mb='0'>PLAN PARA LA DIRECCIÓN DEL PROYECTO</Typography>
                 <CardMedia 
                     component="img"
@@ -58,7 +50,14 @@ const IdentificarInteresados = () => {
                     alt='PLAN PARA LA DIRECCIÓN DEL PROYECTO'
                     sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
-               
+                <Typography variant='subtitle1' component='h1' mb='0'>DOCUMENTOS DE NEGOCIO</Typography>
+                <CardMedia 
+                        component="img"
+                        height='auto'
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/972278716866625546/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='DOCUMENTOS DE NEGOCIO'
+                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                />
                 <Typography variant='subtitle1' component='h1' mb='0'>ACUERDOS</Typography>
                 <CardMedia 
                         component="img"
@@ -86,6 +85,7 @@ const IdentificarInteresados = () => {
             </Box>
             
             <Tema title='Herramientas' />
+            {/* <Typography variant='subtitle1' component='h1' mb='0'>JUICIO DE EXPERTOS</Typography> */}
             <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
                 <Typography variant='subtitle1' component='h1' mb='0'>JUICIO DE EXPERTOS</Typography>
                 <Box display='flex' height='240px'>
@@ -104,64 +104,100 @@ const IdentificarInteresados = () => {
                             sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                     />
                 </Box>
+                
                 <Typography variant='subtitle1' component='h1' mb='0'>RECOPILACIÓN DE DATOS</Typography>
                 <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/717931775472566272/974896765922844713/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='RECOPILACIÓN DE DATOS'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                />
+                            component="img"
+                            height='auto'
+                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977378292996902912/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                            alt='JUICIO DE EXPERTOS'
+                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    />
+                <CardMedia 
+                            component="img"
+                            height='auto'
+                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977378344968536074/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                            alt='JUICIO DE EXPERTOS'
+                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    />
+               
                 <Typography variant='subtitle1' component='h1' mb='0'>ANÁLISIS DE DATOS</Typography>
                 <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977410850488983632/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='ANÁLISIS DE DATOS'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                />
-                <Typography variant='subtitle1' component='h1' mb='0'>REPRESENTACIÓN DE DATOS</Typography>
+                            component="img"
+                            height='auto'
+                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977404613831557160/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                            alt='ANÁLISIS DE DATOS'
+                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    />
+                <Typography variant='subtitle1' component='h1' mb='0'>TOMA DE DECISIONES</Typography>
+                <CardMedia 
+                            component="img"
+                            height='auto'
+                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977404947924660294/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                            alt='TOMA DE DECISIONES'
+                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    />
+                <CardMedia 
+                            component="img"
+                            height='auto'
+                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977405187641737216/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                            alt='TOMA DE DECISIONES'
+                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    />
+                <Typography variant='subtitle1' component='h1' mb='0'>HABILIDADES INTERPERSONALES Y DE EQUIPO</Typography>
                 <CardMedia 
                         component="img"
                         height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977411327465230376/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='REPRESENTACIÓN DE DATOS'
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977405375513002015/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='HABILIDADES INTERPERSONALES'
                         sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
+                 <Typography variant='subtitle1' component='h1' mb='0'>DIAGRAMA DE CONTEXTO</Typography>
                 <CardMedia 
                         component="img"
                         height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977411362856787978/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='REPRESENTACIÓN DE DATOS'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                />
-                <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977411389545136148/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='REPRESENTACIÓN DE DATOS'
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977405608762425354/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='DIAGRAMA DE CONTEXTO'
                         sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
                 <Typography variant='subtitle1' component='h1' mb='0'>REUNIONES</Typography>
-                <Link href='https://www.youtube.com/watch?v=Ub-0_BAYKGQ'>Evidencia de Reuniones</Link>
+                <Link href='https://www.youtube.com/watch?v=XpDhxtjz6tg'>Evidencia de Reuniones</Link>
                 
             </Box>
             
             <Tema title='Salidas' />
             <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
-                <Typography variant='subtitle1' component='h1' mb='0'>REGISTRO DE INTERESADOS</Typography>
+                <Typography variant='subtitle1' component='h1' mb='0'>DOCUMENTACIÓN DE REQUISITOS</Typography>
+                <Typography variant='h6' component='p' mb='0'>Tras los requisitos encontrados se hace un formato de un documento en el que se enumeran todos los requisitos clasificados por interesado y por prioridad. 
+                    Agrupamos los requisitos de acuerdo a las siguientes categorías para permitir un mayor refinamiento y nivel de detalle.
+                </Typography>
                 <CardMedia 
                     component="img"
                     height='auto'
-                    image={'https://cdn.discordapp.com/attachments/783158216976629770/977410850488983632/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                    alt='REGISTRO DE INTERESADOS'
+                    image={'https://cdn.discordapp.com/attachments/924718186530766948/977067490456772628/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='DOCUMENTACIÓN DE REQUISITOS'
                     sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
                 <CardMedia 
                     component="img"
                     height='auto'
-                    image={'https://cdn.discordapp.com/attachments/783158216976629770/977411389545136148/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                    alt='REGISTRO DE INTERESADOS'
+                    image={'https://cdn.discordapp.com/attachments/924718186530766948/977068218973823047/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='DOCUMENTACIÓN DE REQUISITOS'
+                    sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                />
+                <Typography variant='subtitle1' component='h1' mb='0'>Matriz de Trazabilidad de Requisitos</Typography>
+                <CardMedia 
+                    component="img"
+                    height='auto'
+                    image={'https://cdn.discordapp.com/attachments/783158216976629770/977375458876338207/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='Matriz de Trazabilidad de Requisitos'
+                    sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                />
+                <CardMedia 
+                    component="img"
+                    height='auto'
+                    image={'https://cdn.discordapp.com/attachments/783158216976629770/977375496339849256/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='Matriz de Trazabilidad de Requisitos'
                     sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
             </Box>
@@ -170,4 +206,4 @@ const IdentificarInteresados = () => {
   )
 }
 
-export default IdentificarInteresados
+export default RecopilarRequisitos
