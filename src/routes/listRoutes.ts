@@ -42,6 +42,10 @@ export const menuData: MenuType[] = [
                 to: '/definir-alcance',
                 MenuItemName: 'Definir el Alcance'
             },
+            {
+                to: '/crear-edt',
+                MenuItemName: 'Crear la EDT/WBS'
+            },
         ]
     },
     {

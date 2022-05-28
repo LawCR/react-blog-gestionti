@@ -107,7 +107,7 @@ const DefinirAlcance = () => {
             
             <Tema title='Salidas' />
             <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
-                <Typography variant='subtitle1' component='h1' mb='0'>ENUNCIADO DEL DALCANCE DEL PROYECTO</Typography>
+                <Typography variant='subtitle1' component='h1' mb='0'>ENUNCIADO DEL ALCANCE DEL PROYECTO</Typography>
                 <CardMedia 
                     component="img"
                     height='auto'
