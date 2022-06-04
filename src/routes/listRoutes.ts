@@ -49,15 +49,27 @@ export const menuData: MenuType[] = [
         ]
     },
     {
-        menuName: 'Próximamente',
+        menuName: 'Cronograma del Proyecto',
         menuItem: [
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/planificar-actividades',
+                MenuItemName: 'Planificación la Gestión de Cronograma'
             },
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/definir-actividades',
+                MenuItemName: 'Definir las Actividades'
+            },
+            {
+                to: '/secuenciar-actividades',
+                MenuItemName: 'Secuenciar las Actividades'
+            },
+            {
+                to: '/estimar-actividades',
+                MenuItemName: 'Estimar las Actividades'
+            },
+            {
+                to: '/desarrollar-cronograma',
+                MenuItemName: 'Desarrollar el Cronograma'
             },
         ]
     },
