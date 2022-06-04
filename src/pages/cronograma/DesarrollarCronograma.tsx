@@ -124,58 +124,20 @@ const DesarrollarCronograma = () => {
             <Tema title='Herramientas' />
             {/* <Typography variant='subtitle1' component='h1' mb='0'>JUICIO DE EXPERTOS</Typography> */}
             <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
-                {/* <Typography variant='subtitle1' component='h1' mb='0'>ANÁLISIS DE LA RED DEL CRONOGRAMA</Typography>
-                <Box display='flex' height='240px'>
-                    <CardMedia 
-                            component="img"
-                            height='auto'
-                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977378021256347778/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                            alt='ANÁLISIS DE LA RED DEL CRONOGRAMA'
-                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                    />
-                </Box> */}
+            <Typography variant='h6' component='p' mb='0'>
+            El método de la ruta crítica es una técnica que te permite identificar las tareas necesarias para finalizar un proyecto y determinar cierta flexibilidad en el cronograma. Una ruta crítica en la gestión de proyectos es la secuencia más larga de actividades que deben finalizarse a tiempo para completar todo el proyecto. Cualquier retraso en las tareas críticas provocará el retraso del resto del proyecto.
+            El método de la ruta crítica tiene como fin identificar las tareas más importantes del cronograma del proyecto, detectar las dependencias de las tareas y calcular la duración de las tareas.
+            </Typography>
                 
-                {/* <Typography variant='subtitle1' component='h1' mb='0'>MÉTODO DE LA RUTA CRÍTICA</Typography>
-                <CardMedia 
-                            component="img"
-                            height='auto'
-                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977378292996902912/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                            alt='MÉTODO DE LA RUTA CRÍTICA'
-                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                    />
-               
-                <Typography variant='subtitle1' component='h1' mb='0'>ANÁLISIS DE DATOS</Typography>
-                <CardMedia 
-                            component="img"
-                            height='auto'
-                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977404613831557160/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                            alt='ANÁLISIS DE DATOS'
-                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                    />
-                <Typography variant='subtitle1' component='h1' mb='0'>TOMA DE DECISIONES</Typography>
-                <CardMedia 
-                            component="img"
-                            height='auto'
-                            image={'https://cdn.discordapp.com/attachments/783158216976629770/977404947924660294/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                            alt='TOMA DE DECISIONES'
-                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                    />
-                <Typography variant='subtitle1' component='h1' mb='0'>HABILIDADES INTERPERSONALES Y DE EQUIPO</Typography>
-                <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977405375513002015/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='HABILIDADES INTERPERSONALES'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                />
-                 <Typography variant='subtitle1' component='h1' mb='0'>DIAGRAMA DE CONTEXTO</Typography>
-                <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977405608762425354/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='DIAGRAMA DE CONTEXTO'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                /> */}
+            <Typography variant='subtitle1' component='h1' mb='0'>MÉTODO DE LA RUTA CRÍTICA</Typography>
+            <CardMedia 
+                    component="img"
+                    height='auto'
+                    image={'https://cdn.discordapp.com/attachments/810977202068783149/982662159593009162/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='MÉTODO DE LA RUTA CRÍTICA'
+                    sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+            />
+           
             </Box>
             
             <Tema title='Salidas' />

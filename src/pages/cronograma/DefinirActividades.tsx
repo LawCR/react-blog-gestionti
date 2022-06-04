@@ -80,7 +80,17 @@ const DefinirActividades = () => {
                             alt='JUICIO DE EXPERTOS'
                             sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                     />
+                    
                 </Box>
+                <Typography variant='h6' component='p' mb='0'>
+                La descomposición del proyecto es el proceso de dividir los componentes de un gran proyecto en partes más pequeñas y manejables, a menudo denominadas entregables. Este proceso ayuda a los gestores a asignar las tareas con mayor facilidad y contribuye a la gestión del tiempo y el flujo de trabajo. </Typography>
+                <CardMedia 
+                            component="img"
+                            height='auto'
+                            image={'https://2.bp.blogspot.com/-S60nFtCv-Fc/W4AvG55q80I/AAAAAAAAFsY/MKaEvPg_Mg0OWMOjKQFLOOJAnQnTPjxOACLcBGAs/s1600/tecnicas%2Bde%2Bestimaci%25C3%25B3n%2Bde%2Bsoftware%2B-%2BDescomposicion.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                            alt='JUICIO DE EXPERTOS'
+                            sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    />
             </Box>
             
             <Tema title='Salidas' />
