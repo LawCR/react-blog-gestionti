@@ -19,6 +19,28 @@ const PlanificarCostos = () => {
                   <Link onClick={() => navigate('/acta-constitucion')} sx={{cursor: 'pointer'}} >ACTA DE CONSTITUCIÓN DEL PROYECTO</Link>
                 <Typography variant='subtitle1' component='h1' mb='0'>PLAN PARA LA DIRECCIÓN DEL PROYECTO</Typography>
                   <Link onClick={() => navigate('/planificar-actividades')} sx={{cursor: 'pointer'}} >PLAN DE GESTIÓN DEL CRONOGRAMA</Link>   
+                <Typography variant='subtitle1' component='h1' mb='0'>PLAN DE GESTIÓN DE LOS RIESGOS</Typography>
+                <CardMedia 
+                        component="img"
+                        height='auto'
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/987743544921960528/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='PLAN DE GESTIÓN DE LOS RIESGOS'
+                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                />
+                <CardMedia 
+                        component="img"
+                        height='auto'
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/987743593487818753/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='PLAN DE GESTIÓN DE LOS RIESGOS'
+                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                />
+                <CardMedia 
+                        component="img"
+                        height='auto'
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/987743646172463114/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='PLAN DE GESTIÓN DE LOS RIESGOS'
+                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                />
                 <Typography variant='subtitle1' component='h1' mb='0'>FACTORES AMBIENTALES DE LA EMPRESA</Typography>
                 <CardMedia 
                         component="img"

@@ -57,7 +57,7 @@ const EstimarCostos = () => {
                             sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                     />
                 </Box>
-                <Typography variant='subtitle1' component='h1' mb='0'>ESTIMACIÓN</Typography>
+                <Typography variant='subtitle1' component='h1' mb='0'>ESTIMACIÓN POR 3 VALORES</Typography>
                 <Typography variant='subtitle2' component='h1' mb='0'>ESTIMACIÓN DE COSTOS DE MATERIALES</Typography>
                 <CardMedia 
                     component="img"
