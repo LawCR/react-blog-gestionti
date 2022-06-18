@@ -64,6 +64,13 @@ const Home = () => {
                     alt='DISEÑO Y LEVANTAMIENTO DE PLANOS'
                     sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
+                <CardMedia 
+                    component="img"
+                    height='auto'
+                    image={'https://cdn.discordapp.com/attachments/783158216976629770/987756227842949190/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='DISEÑO Y LEVANTAMIENTO DE PLANOS'
+                    sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                />
             </Box>
         </Box>
     )
