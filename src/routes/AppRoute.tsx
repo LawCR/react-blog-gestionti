@@ -3,6 +3,7 @@ import { Box, Container } from '@mui/material';
 import { Footer, Header, Navbar, SideMenu } from '../components';
 import { ActaConstitucion, CrearEDT, DefinirAlcance, DireccionProyecto, Home, IdentificarInteresados, PlanificarAlcance, RecopilarRequisitos } from '../pages';
 import { DefinirActividades, DesarrollarCronograma, EstimarActividades, PlanificarActividades, SecuenciarActividades } from '../pages/cronograma';
+import { DeterminarPresupuesto, EstimarCostos, PlanificarCostos } from '../pages/costos';
 
 
 const AppRoute = () => {
@@ -32,6 +33,13 @@ const AppRoute = () => {
                             <Route path="/secuenciar-actividades" element={<SecuenciarActividades />} />
                             <Route path="/estimar-actividades" element={<EstimarActividades />} />
                             <Route path="/desarrollar-cronograma" element={<DesarrollarCronograma />} />
+
+                            <Route path="/planificar-costos" element={<PlanificarCostos />} />
+                            <Route path="/estimar-costos" element={<EstimarCostos />} />
+                            <Route path="/determinar-presupuesto" element={<DeterminarPresupuesto />} />
+
+
+
                         </Routes>
                     </Box>
                 </Container>

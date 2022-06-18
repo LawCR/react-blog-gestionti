@@ -74,15 +74,19 @@ export const menuData: MenuType[] = [
         ]
     },
     {
-        menuName: 'Próximamente',
+        menuName: 'Gestión de los Costos',
         menuItem: [
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/planificar-costos',
+                MenuItemName: 'Planificar la gestión de los Costos'
             },
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/estimar-costos',
+                MenuItemName: 'Estimar los Costos'
+            },
+            {
+                to: '/determinar-presupuesto',
+                MenuItemName: 'Determinar el Presupuesto'
             },
         ]
     },
