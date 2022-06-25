@@ -4,6 +4,8 @@ import { Footer, Header, Navbar, SideMenu } from '../components';
 import { ActaConstitucion, CrearEDT, DefinirAlcance, DireccionProyecto, Home, IdentificarInteresados, PlanificarAlcance, RecopilarRequisitos } from '../pages';
 import { DefinirActividades, DesarrollarCronograma, EstimarActividades, PlanificarActividades, SecuenciarActividades } from '../pages/cronograma';
 import { DeterminarPresupuesto, EstimarCostos, PlanificarCostos } from '../pages/costos';
+import { PlanificarCalidad } from '../pages/calidad';
+import { Implementacion } from '../pages/implementacion';
 
 
 const AppRoute = () => {
@@ -37,6 +39,11 @@ const AppRoute = () => {
                             <Route path="/planificar-costos" element={<PlanificarCostos />} />
                             <Route path="/estimar-costos" element={<EstimarCostos />} />
                             <Route path="/determinar-presupuesto" element={<DeterminarPresupuesto />} />
+
+                            <Route path="/planificar-calidad" element={<PlanificarCalidad />} />
+
+                            <Route path="/implementacion" element={<Implementacion />} />
+
 
 
 

@@ -79,19 +79,19 @@ const DeterminarPresupuesto = () => {
             
             <Tema title='Salidas' />
             <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
-                <Typography variant='subtitle1' component='h1' mb='0'>PLAN DE GESTIÓN DEL CRONOGRAMA</Typography>
+                <Typography variant='subtitle1' component='h1' mb='0'>LINEA BASE DE COSTOS</Typography>
                 <CardMedia 
                     component="img"
                     height='auto'
-                    image={'https://cdn.discordapp.com/attachments/717931775472566272/982489495465259068/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                    alt='PLAN DE GESTIÓN DEL CRONOGRAMA'
+                    image={'https://cdn.discordapp.com/attachments/783158216976629770/990067733154635806/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='LINEA BASE DE COSTOS'
                     sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
                 <CardMedia 
                     component="img"
                     height='auto'
-                    image={'https://cdn.discordapp.com/attachments/717931775472566272/982489554864988180/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                    alt='PLAN DE GESTIÓN DEL CRONOGRAMA'
+                    image={'https://cdn.discordapp.com/attachments/783158216976629770/990067886645202985/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='LINEA BASE DE COSTOS'
                     sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
             </Box>

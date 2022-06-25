@@ -91,15 +91,20 @@ export const menuData: MenuType[] = [
         ]
     },
     {
-        menuName: 'Próximamente',
+        menuName: 'Gestión de Calidad',
         menuItem: [
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/planificar-calidad',
+                MenuItemName: 'Planificar la Gestión de la Calidad'
             },
+        ]
+    },
+    {
+        menuName: 'Implementación',
+        menuItem: [
             {
-                to: '/',
-                MenuItemName: 'Próximamente'
+                to: '/implementacion',
+                MenuItemName: 'Diseño y Levantamiento de Planos'
             },
         ]
     },
