@@ -93,15 +93,27 @@ const PlanificarCalidad = () => {
                     />
                 </Box>
                
+                <Typography variant='subtitle1' component='h1' mb='0'>RECOPILACIÓN DE DATOS</Typography>
+                    <Typography variant='h6' component='p' mb='0'>
+                    Las entrevistas se realizan a los participantes experimentados del proyecto, a los interesados y a los expertos en la materia.
+                    Se realizó la entrevista a la auxiliar de laboratorio Rosa Escalante para evaluar los puntos de calidad que se definen en la planificación.
+                    </Typography>
+                    <CardMedia 
+                        component="img"
+                        height='auto'
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/990269868001611816/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='ANÁLISIS DE DATOS'
+                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    />
                 <Typography variant='subtitle1' component='h1' mb='0'>ANÁLISIS DE DATOS</Typography>
-                <Typography variant='subtitle2' component='h1' mb='0'>COSTO DE CALIDAD</Typography>
-                <CardMedia 
-                    component="img"
-                    height='auto'
-                    image={'https://cdn.discordapp.com/attachments/924718186530766948/990074026519056465/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                    alt='ANÁLISIS DE DATOS'
-                    sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                />
+                    <Typography variant='subtitle2' component='h1' mb='0'>COSTO DE CALIDAD</Typography>
+                    <CardMedia 
+                        component="img"
+                        height='auto'
+                        image={'https://cdn.discordapp.com/attachments/924718186530766948/990074026519056465/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='ANÁLISIS DE DATOS'
+                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    />
             </Box>
             
             <Tema title='Salidas' />
