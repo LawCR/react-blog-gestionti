@@ -5,7 +5,8 @@ import { ActaConstitucion, CrearEDT, DefinirAlcance, DireccionProyecto, Home, Id
 import { DefinirActividades, DesarrollarCronograma, EstimarActividades, PlanificarActividades, SecuenciarActividades } from '../pages/cronograma';
 import { DeterminarPresupuesto, EstimarCostos, PlanificarCostos } from '../pages/costos';
 import { PlanificarCalidad } from '../pages/calidad';
-import { Implementacion } from '../pages/implementacion';
+import { Evidencia2, Implementacion } from '../pages/implementacion';
+import { PlanificarRecursos } from '../pages/recursos';
 
 
 const AppRoute = () => {
@@ -41,8 +42,10 @@ const AppRoute = () => {
                             <Route path="/determinar-presupuesto" element={<DeterminarPresupuesto />} />
 
                             <Route path="/planificar-calidad" element={<PlanificarCalidad />} />
+                            <Route path="/planificar-recursos" element={<PlanificarRecursos />} />
 
-                            <Route path="/implementacion" element={<Implementacion />} />
+                            <Route path="/primer-entregable" element={<Implementacion />} />
+                            <Route path="/segundo-entregable" element={<Evidencia2 />} />
 
 
 

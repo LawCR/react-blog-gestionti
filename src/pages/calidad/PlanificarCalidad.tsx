@@ -10,7 +10,7 @@ const PlanificarCalidad = () => {
     <Box component='article'>
         <Box component='header'>
             <Tema 
-                title='DETERMINAR EL PRESUPUESTO' 
+                title='PLANIFICAR LA GESTIÓN DE CALIDAD' 
             />
         </Box>
         <Box component='section' display='flex' flexDirection='column' rowGap={4} paddingY={4}>

@@ -91,11 +91,15 @@ export const menuData: MenuType[] = [
         ]
     },
     {
-        menuName: 'Gestión de Calidad',
+        menuName: 'Gestión',
         menuItem: [
             {
                 to: '/planificar-calidad',
                 MenuItemName: 'Planificar la Gestión de la Calidad'
+            },
+            {
+                to: '/planificar-recursos',
+                MenuItemName: 'Planificar la Gestión de Recursos'
             },
         ]
     },
@@ -103,8 +107,12 @@ export const menuData: MenuType[] = [
         menuName: 'Implementación',
         menuItem: [
             {
-                to: '/implementacion',
-                MenuItemName: 'Diseño y Levantamiento de Planos'
+                to: '/primer-entregable',
+                MenuItemName: 'Entregables 1'
+            },
+            {
+                to: '/segundo-entregable',
+                MenuItemName: 'Entregables 2'
             },
         ]
     },
