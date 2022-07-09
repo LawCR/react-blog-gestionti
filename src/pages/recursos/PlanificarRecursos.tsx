@@ -84,7 +84,7 @@ const PlanificarRecursos = () => {
                         alt='REPRESENTACIÓN DE DATOS'
                         sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                     />
-                    <Typography variant='subtitle2' component='h1' mb='0'>Formatos tipo texto</Typography>
+                    <Typography variant='subtitle2' component='h1' mb='0'>Matriz de Asignación de Responsabilidades</Typography>
                     <Box sx={{objectFit: 'contain', height: '70vh', width:'100%' , maxWidth: {xs: '100%', sm: '52vw',}}}>
                         <object data={RecursosRaci} type='application/pdf' width="100%" height="100%"></object>
                     </Box>
