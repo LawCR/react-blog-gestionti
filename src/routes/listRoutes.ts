@@ -101,6 +101,10 @@ export const menuData: MenuType[] = [
                 to: '/planificar-recursos',
                 MenuItemName: 'Planificar la Gestión de Recursos'
             },
+            {
+                to: '/estimar-recursos',
+                MenuItemName: 'Estimar los Recursos'
+            },
         ]
     },
     {
@@ -113,6 +117,10 @@ export const menuData: MenuType[] = [
             {
                 to: '/segundo-entregable',
                 MenuItemName: 'Entregables 2'
+            },
+            {
+                to: '/tercer-entregable',
+                MenuItemName: 'Entregables 3'
             },
         ]
     },

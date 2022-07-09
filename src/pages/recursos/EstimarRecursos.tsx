@@ -1,12 +1,11 @@
 import { Box, Typography, CardMedia, Link } from '@mui/material'
 import { Tema } from '../../components'
 import { useNavigate } from 'react-router-dom';
-import RecursosRaci  from '../../assets/RecursosRaci.pdf'
-import PlanRecursos  from '../../assets/PlanRecursos.pdf'
-// import RequisitosRecursos  from '../../assets/RequisitosRecursos.pdf'
+
+import RequisitosRecursos  from '../../assets/RequisitosRecursos.pdf'
 
 
-const PlanificarRecursos = () => {
+const EstimarRecursos = () => {
 
     const navigate = useNavigate()
 
@@ -14,20 +13,27 @@ const PlanificarRecursos = () => {
     <Box component='article'>
         <Box component='header'>
             <Tema 
-                title='PLANIFICAR LA GESTIÓN DE RECURSOS' 
+                title='Estimar los Recursos de las Actividades' 
             />
         </Box>
         <Box component='section' display='flex' flexDirection='column' rowGap={4} paddingY={4}>
             <Tema title='Entradas' />
             <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
-                <Typography variant='subtitle1' component='h1' mb='0'>ACTA DE CONSTITUCIÓN DEL PROYECTO</Typography>
-                  <Link onClick={() => navigate('/acta-constitucion')} sx={{cursor: 'pointer'}} >ACTA DE CONSTITUCIÓN DEL PROYECTO</Link>
                 <Typography variant='subtitle1' component='h1' mb='0'>PLAN PARA LA DIRECCIÓN DEL PROYECTO</Typography>
-                    <Link onClick={() => navigate('/planificar-calidad')} sx={{cursor: 'pointer'}} >PLAN DE GESTIÓN DE LA CALIDAD</Link>
-                    <Link onClick={() => navigate('/crear-edt')} sx={{cursor: 'pointer'}} >LÍNEA BASE DEL ALCANCE</Link> 
+                    <Link onClick={() => navigate('/planificar-recursos')} sx={{cursor: 'pointer'}} >PLAN DE GESTIÓN DE LOS RECURSOS</Link>
+                    <Link onClick={() => navigate('/planificar-recursos')} sx={{cursor: 'pointer'}} >LISTA DE ACTIVIDADES</Link> 
                 <Typography variant='subtitle1' component='h1' mb='0'>DOCUMENTOS DEL PROYECTO</Typography>  
-                    <Link onClick={() => navigate('/desarrollar-cronograma')} sx={{cursor: 'pointer'}} >CRONOGRAMA DEL PROYECTO</Link> 
-                    <Link onClick={() => navigate('/recopilar-requisitos')} sx={{cursor: 'pointer'}} >DOCUMENTACIÓN DE REQUISITOS</Link>   
+                    <Link onClick={() => navigate('/definir-actividades')} sx={{cursor: 'pointer'}} >ATRIBUTOS DE LA CALIDAD</Link> 
+                    <Link onClick={() => navigate('/recopilar-requisitos')} sx={{cursor: 'pointer'}} >LISTA DE ACTIVIDADES</Link>  
+                    <Typography variant='subtitle2' component='h1' mb='0'>REGISTRO DE SUPUESTOS</Typography>
+                    <CardMedia 
+                        component="img"
+                        height='auto'
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/977415496502751282/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='REGISTRO DE SUPUESTOS'
+                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                    /> 
+                    <Link onClick={() => navigate('/estimar-costos')} sx={{cursor: 'pointer'}} >ESTIMACIONES DE COSTOS</Link>  
                     <Typography variant='subtitle2' component='h1' mb='0'>REGISTRO DE RIESGOS</Typography>
                     <CardMedia 
                         component="img"
@@ -36,7 +42,6 @@ const PlanificarRecursos = () => {
                         alt='PLAN DE GESTIÓN DE COSTOS'
                         sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                     />
-                    <Link onClick={() => navigate('/identificar-interesados')} sx={{cursor: 'pointer'}} >REGISTRO DE INTERESADOS</Link> 
                 <Typography variant='subtitle1' component='h1' mb='0'>FACTORES AMBIENTALES DE LA EMPRESA</Typography>
                 <CardMedia 
                         component="img"
@@ -76,61 +81,42 @@ const PlanificarRecursos = () => {
                 </Box>
                
                 <Typography variant='subtitle1' component='h1' mb='0'>REPRESENTACIÓN DE DATOS</Typography>
-                    <Typography variant='subtitle2' component='h1' mb='0'>Estructura de Desglose de Trabajo</Typography>
                     <CardMedia 
                         component="img"
                         height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/992591703863205948/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        image={'https://cdn.discordapp.com/attachments/783158216976629770/995200548099870800/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
                         alt='REPRESENTACIÓN DE DATOS'
                         sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                     />
-                    <Typography variant='subtitle2' component='h1' mb='0'>Formatos tipo texto</Typography>
-                    <Box sx={{objectFit: 'contain', height: '70vh', width:'100%' , maxWidth: {xs: '100%', sm: '52vw',}}}>
-                        <object data={RecursosRaci} type='application/pdf' width="100%" height="100%"></object>
-                    </Box>
+                <Typography variant='subtitle1' component='h1' mb='0'>REUNIÓN</Typography>
+                <CardMedia 
+                    component="img"
+                    height='auto'
+                    image={'https://cdn.discordapp.com/attachments/783158216976629770/987566740185706536/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                    alt='ANÁLISIS DE DATOS'
+                    sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
+                />
             </Box>
             
             <Tema title='Salidas' />
             <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
                 <Typography variant='subtitle1' component='h1' mb='0'>PLAN DE GESTIÓN DE RECURSOS</Typography>
                 <Box sx={{objectFit: 'contain', height: '70vh', width:'100%' , maxWidth: {xs: '100%', sm: '52vw',}}}>
-                    <object data={PlanRecursos} type='application/pdf' width="100%" height="100%"></object>
+                    <object data={RequisitosRecursos} type='application/pdf' width="100%" height="100%"></object>
                 </Box>
-                <Typography variant='subtitle1' component='h1' mb='0'>ACTA DE CONSTITUCIÓN DEL EQUIPO</Typography>
-                <CardMedia 
-                    component="img"
-                    height='auto'
-                    image={'https://cdn.discordapp.com/attachments/783158216976629770/992586433707659304/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                    alt='ACTA DE CONSTITUCIÓN DEL EQUIPO'
-                    sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                />
-                <Typography variant='subtitle1' component='h1' mb='0'>ACTUALIZACIONES A LOS DOCUMENTOS DEL PROYECTO</Typography>
-                    <Typography variant='subtitle2' component='h1' mb='0'>REGISTRO DE RIESGOS</Typography>
+                <Typography variant='subtitle2' component='h1' mb='0'>Estructura de Desglose de Recursos</Typography>
                     <CardMedia 
                         component="img"
                         height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/992594394073014352/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='ACTUALIZACIONES A LOS DOCUMENTOS DEL PROYECTO'
+                        image={'https://cdn.discordapp.com/attachments/924718186530766948/992592058135089222/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
+                        alt='REPRESENTACIÓN DE DATOS'
                         sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                     />
-                    <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/992594490500067368/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='ACTUALIZACIONES A LOS DOCUMENTOS DEL PROYECTO'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                    />
-                    <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/992594568409264209/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='ACTUALIZACIONES A LOS DOCUMENTOS DEL PROYECTO'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                    />
+                
             </Box>
         </Box>
     </Box>
   )
 }
 
-export default PlanificarRecursos
+export default EstimarRecursos
