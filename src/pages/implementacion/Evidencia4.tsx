@@ -1,7 +1,7 @@
 import { Box, CardMedia, Link, Typography, ImageList, ImageListItem } from '@mui/material';
 import { Tema } from '../../components';
 
-// import CuadroCargas from '../../assets/CuadroCargas.xlsx'
+import ConstanciaConformidad from '../../assets/ConstanciaConformidad.pdf'
 
 const Evidencia4 = () => {
     return (
@@ -52,14 +52,17 @@ const Evidencia4 = () => {
                     alt='DISEÑO Y LEVANTAMIENTO DE PLANOS'
                     sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
                 />
-                <Typography variant='subtitle2' component='h1' mb='0'>PLAN DE GESTIÓN DE COMUNICACIONES</Typography>
-                <Box sx={{objectFit: 'contain', display: 'flex', justifyContent:'center', height: '70vh', width:'100%'}}>
+                <Box sx={{objectFit: 'contain', display: 'flex', justifyContent:'center', height: '5vh', width:'100%'}}>
                     {/* <object data={PlanComunicaciones} type='application/pdf' width="100%" height="100%"></object> */}
                     
                     <Typography variant='subtitle2' component='h1' mb='0'>
-                        {/* <a href="https://cdn.discordapp.com/attachments/924718186530766948/1000395861685186620/CUADRO_DE_CARGAS.xlsx" download="Cuadro de Cargas.xlsx">Cuadro de Cargas</a> */}
                         <Link href="https://cdn.discordapp.com/attachments/924718186530766948/1000395861685186620/CUADRO_DE_CARGAS.xlsx" download="Cuadro de Cargas.xlsx" >Cuadro de Cargas</Link>
                     </Typography>
+                </Box>
+                <Typography variant='subtitle2' component='h1' mb='0'>CONSTANCIA DE CONFORMIDAD</Typography>
+                <Box sx={{objectFit: 'contain', display: 'flex', justifyContent:'center', height: '70vh', width:'100%'}}>
+                    <object data={ConstanciaConformidad} type='application/pdf' width="100%" height="100%"></object>
+                    
                 </Box>
             </Box>
         </Box>
