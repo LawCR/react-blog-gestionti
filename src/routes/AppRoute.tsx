@@ -7,6 +7,13 @@ import { DeterminarPresupuesto, EstimarCostos, PlanificarCostos } from '../pages
 import { PlanificarCalidad } from '../pages/calidad';
 import { Evidencia2, Evidencia3, Implementacion } from '../pages/implementacion';
 import { EstimarRecursos, PlanificarRecursos } from '../pages/recursos';
+import IdentificarRiesgos from '../pages/riesgos/IdentificarRiesgos';
+import PlanificarComunicacion from '../pages/comunicacion/PlanificarComunicacion';
+import PlanificarRiesgos from '../pages/riesgos/PlanificarRiesgos';
+import RiesgosCualitativos from '../pages/riesgos/RiesgosCualitativos';
+import RiesgosCuantitativos from '../pages/riesgos/RiesgosCuantitativos';
+import RespuestaRiesgos from '../pages/riesgos/RespuestaRiesgos';
+import Evidencia4 from '../pages/implementacion/Evidencia4';
 
 
 const AppRoute = () => {
@@ -44,10 +51,17 @@ const AppRoute = () => {
                             <Route path="/planificar-calidad" element={<PlanificarCalidad />} />
                             <Route path="/planificar-recursos" element={<PlanificarRecursos />} />
                             <Route path="/estimar-recursos" element={<EstimarRecursos />} />
+                            <Route path="/planificar-comunicaciones" element={<PlanificarComunicacion />} />
+                            <Route path="/planificar-riesgos" element={<PlanificarRiesgos />} />
+                            <Route path="/identificar-riesgos" element={<IdentificarRiesgos />} />
+                            <Route path="/riesgos-cualitativos" element={<RiesgosCualitativos />} />
+                            <Route path="/riesgos-cuantitativos" element={<RiesgosCuantitativos />} />
+                            <Route path="/respuesta-riesgos" element={<RespuestaRiesgos />} />
 
                             <Route path="/primer-entregable" element={<Implementacion />} />
                             <Route path="/segundo-entregable" element={<Evidencia2 />} />
                             <Route path="/tercer-entregable" element={<Evidencia3 />} />
+                            <Route path="/entregable-final" element={<Evidencia4 />} />
 
 
 

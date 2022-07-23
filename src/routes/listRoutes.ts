@@ -105,6 +105,30 @@ export const menuData: MenuType[] = [
                 to: '/estimar-recursos',
                 MenuItemName: 'Estimar los Recursos'
             },
+            {
+                to: '/planificar-comunicaciones',
+                MenuItemName: 'Planificar la Gestión de las Comunicaciones'
+            },
+            {
+                to: '/planificar-riesgos',
+                MenuItemName: 'Planificar la Gestión de los Riesgos'
+            },
+            {
+                to: '/identificar-riesgos',
+                MenuItemName: 'Identificar los Riesgos'
+            },
+            {
+                to: '/riesgos-cualitativos',
+                MenuItemName: 'Realizar el Análisis Cualitativo de Riesgos'
+            },
+            {
+                to: '/riesgos-cuantitativos',
+                MenuItemName: 'Realizar el Análisis Cuantitativo de Riesgos'
+            },
+            {
+                to: '/respuesta-riesgos',
+                MenuItemName: 'Planificar la Respuesta a los Riesgos'
+            },
         ]
     },
     {
@@ -121,6 +145,10 @@ export const menuData: MenuType[] = [
             {
                 to: '/tercer-entregable',
                 MenuItemName: 'Entregables 3'
+            },
+            {
+                to: '/entregable-final',
+                MenuItemName: 'Entregable Final'
             },
         ]
     },
