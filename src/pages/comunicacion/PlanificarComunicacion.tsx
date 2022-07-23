@@ -2,7 +2,7 @@ import { Box, Typography, CardMedia, Link } from '@mui/material'
 import { Tema } from '../../components'
 import { useNavigate } from 'react-router-dom';
 
-import RequisitosRecursos  from '../../assets/RequisitosRecursos.pdf'
+import PlanComunicaciones  from '../../assets/PlanComunicaciones.pdf'
 
 const PlanificarComunicacion = () => {
   const navigate = useNavigate()
@@ -73,15 +73,10 @@ const PlanificarComunicacion = () => {
             
             <Tema title='Salidas' />
             <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
-                <Typography variant='subtitle2' component='h1' mb='0'>INFORME DE RIESGOS</Typography>
-                    <CardMedia 
-                        component="img"
-                        height='auto'
-                        image={'https://cdn.discordapp.com/attachments/783158216976629770/1000243625092984862/unknown.png' || 'https://www.teckelsdegolage.com/wp-content/uploads/2019/05/No_image.jpg'}
-                        alt='INFORME DE RIESGOS'
-                        sx={{objectFit: 'contain', maxWidth: {xs: '100%', sm: '52vw'}}}
-                    />
-                
+                <Typography variant='subtitle2' component='h1' mb='0'>PLAN DE GESTIÓN DE COMUNICACIONES</Typography>
+                <Box sx={{objectFit: 'contain', height: '70vh', width:'100%' , maxWidth: {xs: '100%', sm: '52vw',}}}>
+                    <object data={PlanComunicaciones} type='application/pdf' width="100%" height="100%"></object>
+                </Box>
             </Box>
         </Box>
     </Box>
