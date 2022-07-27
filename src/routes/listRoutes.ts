@@ -71,6 +71,10 @@ export const menuData: MenuType[] = [
                 to: '/desarrollar-cronograma',
                 MenuItemName: 'Desarrollar el Cronograma'
             },
+            {
+                to: '/controlar-cronograma',
+                MenuItemName: 'Controlar el Cronograma'
+            },
         ]
     },
     {
@@ -87,6 +91,10 @@ export const menuData: MenuType[] = [
             {
                 to: '/determinar-presupuesto',
                 MenuItemName: 'Determinar el Presupuesto'
+            },
+            {
+                to: '/controlar-costos',
+                MenuItemName: 'Controlar los Costos'
             },
         ]
     },
@@ -128,6 +136,14 @@ export const menuData: MenuType[] = [
             {
                 to: '/respuesta-riesgos',
                 MenuItemName: 'Planificar la Respuesta a los Riesgos'
+            },
+            {
+                to: '/monitorear-interesados',
+                MenuItemName: 'Monitorear el Involucramiento de los Interesados'
+            },
+            {
+                to: '/planificar-adquisiciones',
+                MenuItemName: 'Planificar la Gestión de las Adquisiciones del Proyecto'
             },
         ]
     },

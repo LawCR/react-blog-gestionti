@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom'
 import { Box, Container } from '@mui/material';
 import { Footer, Header, Navbar, SideMenu } from '../components';
 import { ActaConstitucion, CrearEDT, DefinirAlcance, DireccionProyecto, Home, IdentificarInteresados, PlanificarAlcance, RecopilarRequisitos } from '../pages';
@@ -14,12 +14,16 @@ import RiesgosCualitativos from '../pages/riesgos/RiesgosCualitativos';
 import RiesgosCuantitativos from '../pages/riesgos/RiesgosCuantitativos';
 import RespuestaRiesgos from '../pages/riesgos/RespuestaRiesgos';
 import Evidencia4 from '../pages/implementacion/Evidencia4';
+import ControlarCronograma from '../pages/cronograma/ControlarCronograma';
+import PlanificarAdquisiciones from '../pages/adquisiciones/PlanificarAdquisiciones';
+import MonitorearInteresados from '../pages/interesados/MonitorearInteresados';
+import ControlarCostos from '../pages/costos/ControlarCostos';
 
 
 const AppRoute = () => {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             
             <Navbar />
             {/* <Container> */}
@@ -43,10 +47,15 @@ const AppRoute = () => {
                             <Route path="/secuenciar-actividades" element={<SecuenciarActividades />} />
                             <Route path="/estimar-actividades" element={<EstimarActividades />} />
                             <Route path="/desarrollar-cronograma" element={<DesarrollarCronograma />} />
+                            {/* TODO: */}
+                            <Route path="/controlar-cronograma" element={<ControlarCronograma />} /> 
 
                             <Route path="/planificar-costos" element={<PlanificarCostos />} />
                             <Route path="/estimar-costos" element={<EstimarCostos />} />
                             <Route path="/determinar-presupuesto" element={<DeterminarPresupuesto />} />
+
+                            {/* TODO: */}
+                            <Route path="/controlar-costos" element={<ControlarCostos />} /> 
 
                             <Route path="/planificar-calidad" element={<PlanificarCalidad />} />
                             <Route path="/planificar-recursos" element={<PlanificarRecursos />} />
@@ -57,6 +66,11 @@ const AppRoute = () => {
                             <Route path="/riesgos-cualitativos" element={<RiesgosCualitativos />} />
                             <Route path="/riesgos-cuantitativos" element={<RiesgosCuantitativos />} />
                             <Route path="/respuesta-riesgos" element={<RespuestaRiesgos />} />
+
+                            {/* TODO */}
+                            <Route path="/monitorear-interesados" element={<MonitorearInteresados />} /> 
+                            <Route path="/planificar-adquisiciones" element={<PlanificarAdquisiciones />} /> 
+
 
                             <Route path="/primer-entregable" element={<Implementacion />} />
                             <Route path="/segundo-entregable" element={<Evidencia2 />} />
@@ -71,7 +85,7 @@ const AppRoute = () => {
                 </Container>
                 <Footer />
             {/* </Container> */}
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
