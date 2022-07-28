@@ -43,7 +43,7 @@ const MenuList: FC<Props> = ({ menu}) => {
                     menuItem.map(({MenuItemName, to}) => (
                         <MenuItem onClick={handleClose} key={'menuItem-' + to} >
                                 <Link to={`${to}`} style={{textDecoration: 'none'}} >
-                                    <Typography variant="body1" width={'200px'} component="h6" color='primary' noWrap>
+                                    <Typography variant="body1" width={'260px'} component="h6" color='primary' noWrap>
                                         {MenuItemName}
                                     </Typography>
                                 </Link>

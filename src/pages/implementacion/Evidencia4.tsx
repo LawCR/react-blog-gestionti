@@ -60,6 +60,7 @@ const Evidencia4 = () => {
                     </Typography>
                 </Box>
                 <Typography variant='subtitle2' component='h1' mb='0'>CONSTANCIA DE CONFORMIDAD</Typography>
+                <Typography variant='subtitle2' component='h1' mb='0'>Constancia de conformidad de los planos y simulación de las redes para los laboratorios de computo, para poder proceder posteriormente con la implementación del laboratorio.</Typography>
                 <Box sx={{objectFit: 'contain', display: 'flex', justifyContent:'center', height: '70vh', width:'100%'}}>
                     <object data={ConstanciaConformidad} type='application/pdf' width="100%" height="100%"></object>
                     

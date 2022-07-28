@@ -118,7 +118,7 @@ const MonitorearInteresados = () => {
                 
                 <Tema title='Salidas' />
                 <Box display='flex' flexDirection='column' rowGap={4} alignItems='center' width='100%'>
-                    <Typography variant='subtitle2' component='h1' mb='0'>INFORMACIÓN DE DESEMPEÑO DEL TRABAJO</Typography>
+                    <Typography variant='subtitle1' component='h1' mb='0'>INFORMACIÓN DE DESEMPEÑO DEL TRABAJO</Typography>
                     <Box sx={{objectFit: 'contain', display: 'flex', justifyContent:'center', height: '70vh', width:'100%'}}>
                       <object data={DesempeñoTrabajo} type='application/pdf' width="100%" height="100%"></object>
                     </Box>

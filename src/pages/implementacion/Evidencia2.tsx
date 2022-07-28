@@ -27,7 +27,7 @@ const Evidencia2 = () => {
                   subtitle='Establecer una infraestructura de última generación para laboratorios e instalaciones de computación, proporcionar equipos informáticos de  PC a los usuarios cuyos equipos tengan más de o 5 años  o sean ineficientes para optimizar y crear Beneficio de los procesos dados más el rendimiento del equipo conduce a mayor velocidad en todo tipo de procesos, por ejemplo (contabilidad, pedagogía, recursos humanos, etc.).' 
                   isTitle={false}
                 />
-                <ImageList sx={{ width: {xs: '100%', md: '900px'}, height: 700 }} cols={1} rowHeight={500}>
+                {/* <ImageList sx={{ width: {xs: '100%', md: '900px'}, height: 700 }} cols={1} rowHeight={500}>
                     {imagesGraficas.map((item) => (
                         <ImageListItem key={item}>
                         <img
@@ -38,7 +38,7 @@ const Evidencia2 = () => {
                         />
                         </ImageListItem>
                     ))}
-                </ImageList>
+                </ImageList> */}
                 <CardMedia 
                     component="img"
                     height='auto'
